@@ -1,0 +1,8 @@
+Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Assets/Helper/Helper1/Injured filter=lfs diff=lfs merge=lfs -text
+Wave filter=lfs diff=lfs merge=lfs -text
+Idle.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/Video/sence1.mp4 filter=lfs diff=lfs merge=lfs -text
+Idle.fb filter=lfs diff=lfs merge=lfs -text
+File filter=lfs diff=lfs merge=lfs -text
+Assets/Helper/Helper1/Injured[[:space:]]Wave[[:space:]]Idle.fbx filter=lfs diff=lfs merge=lfs -text
