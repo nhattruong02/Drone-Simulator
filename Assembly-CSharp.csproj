@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1074F45A-98B1-C776-CE00-4DC492CF23E2}</ProjectGuid>
+    <ProjectGuid>{45CB7730-1180-063D-0AF2-07BA83EFA9CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,12 +59,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\rotor.cs" />
-    <Compile Include="Assets\CircleCollider.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\DroneControllerPlugin\DroneCamera.cs" />
     <Compile Include="Assets\DroneControllerPlugin\Propelers\ElisaScript.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\PID.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\optimizations\OptimizationManager.cs" />
+    <Compile Include="Assets\Scripts\Achievement.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level2_IA\maze\dataCollector.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level1_Trajectories\singlePoint.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\sensors\Barometer.cs" />
@@ -72,28 +72,25 @@
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Tools\lineDrawer.cs" />
     <Compile Include="Assets\DroneControllerPlugin\DroneCollision.cs" />
+    <Compile Include="Assets\Scripts\VideoEnd.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\sensors\noiseAdder.cs" />
-    <Compile Include="Assets\TextStar.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Scripts\CircleCollider.cs" />
     <Compile Include="Assets\DroneControllerPlugin\CameraMovement\CameraScript.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\sensors\GPS.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\optimizations\twidOptimization\twiddleBehaviour.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\sensors\Gyro.cs" />
-    <Compile Include="Assets\GameStage.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayRandomSound.cs" />
-    <Compile Include="Assets\ItemTrigger.cs" />
     <Compile Include="Assets\DroneControllerPlugin\DronePropelers.cs" />
-    <Compile Include="Assets\VideoEnd.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\droneSettings.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level2_IA\IA.cs" />
+    <Compile Include="Assets\Scripts\GameStage.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level2_IA\maze\drawing\dataDrawer.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\sensors\noiseAddVector3.cs" />
-    <Compile Include="Assets\DroneMovement1.cs" />
+    <Compile Include="Assets\Scripts\DroneMovement1.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Tools\configReader.cs" />
-    <Compile Include="Assets\Logic.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\sensors\Accelerometer.cs" />
-    <Compile Include="Assets\Help.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Tools\dataSaver.cs" />
     <Compile Include="Assets\DroneControllerPlugin\AssemblyInfo.cs" />
     <Compile Include="Assets\Realistic Drone\screen.cs" />
@@ -102,31 +99,34 @@
     <Compile Include="Assets\Realistic Drone\cameraBehaviour.cs" />
     <Compile Include="Assets\DroneControllerPlugin\Physics\DroneMovementScript.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level2_IA\maze\mazeExplorer.cs" />
-    <Compile Include="Assets\Menu.cs" />
-    <Compile Include="Assets\ScreenManager.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Tools\dataReader.cs" />
+    <Compile Include="Assets\Scripts\ItemTrigger.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\droneMovementController.cs" />
+    <Compile Include="Assets\Scripts\TextStar.cs" />
+    <Compile Include="Assets\Scripts\Logic.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\DroneControllerPlugin\DroneMovement.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\MouseComponent.cs" />
     <Compile Include="Assets\Realistic Drone\lookAt.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level1_Trajectories\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\Achievement.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level1_Trajectories\Waypoint.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\sensors\Magnetometer.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\optimizations\OptimizationBehaviour.cs" />
     <Compile Include="Assets\DroneControllerPlugin\Physics\JoystickDrivingAxis.cs" />
     <Compile Include="Assets\DroneControllerPlugin\Profiles\Profile.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\optimizations\geneticOptimization\GeneticSettings.cs" />
-    <Compile Include="Assets\EffectWeather.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PushPhysics.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\optimizations\geneticOptimization\GAmanager.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level1_Trajectories\WaypointCircuit.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\optimizations\twidOptimization\twiddleManager.cs" />
     <Compile Include="Assets\Realistic Drone\drone\Level0_Stabilizing\optimizations\twidOptimization\twiddleSettings.cs" />
+    <Compile Include="Assets\Scripts\EffectWeather.cs" />
+    <Compile Include="Assets\Scripts\Help.cs" />
+    <Compile Include="Assets\Scripts\ScreenManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
