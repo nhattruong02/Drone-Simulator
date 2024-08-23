@@ -1,5 +1,9 @@
-* linguist-vendored
-*.js linguist-vendored=false
+*.cs linguist-detectable=true  
+*.java linguist-detectable=false  
+*.js linguist-detectable=false  
+*.html linguist-detectable=false  
+*.xml linguist-detectable=false 
+*.asm linguist-detectable=false 
 Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 Assets/Helper/Helper1/Injured filter=lfs diff=lfs merge=lfs -text
 Wave filter=lfs diff=lfs merge=lfs -text
